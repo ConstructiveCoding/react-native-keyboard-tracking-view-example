@@ -1,0 +1,3 @@
+rootProject.name = 'reactNativeKeyboardTrackingViewExample'
+
+include ':app'
