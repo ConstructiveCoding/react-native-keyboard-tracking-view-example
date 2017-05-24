@@ -105,11 +105,11 @@ export default class ScreenTwo extends Component {
 					renderRow={this._renderRow}
 					style={styles.listView}
 				/>
-				<KeyboardTrackingView style={styles.navigationWrapper}>
+				{/*<KeyboardTrackingView style={styles.navigationWrapper}>
 					<Text style={styles.navigation}></Text>
 					<TouchableOpacity onPress={this._navigatePrevious} style={styles.navButton}><Text>Prev</Text></TouchableOpacity>
 					<TouchableOpacity onPress={this._navigateNext} style={styles.navButton}><Text>Next</Text></TouchableOpacity>
-				</KeyboardTrackingView>
+				</KeyboardTrackingView>*/}
       </View>
     );
 	}
